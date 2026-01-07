@@ -1,0 +1,12 @@
+### List all messages 
+Get http://localhost:3000/messages
+
+### create a new message
+Post http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "text": 123
+}
+### Get a particular message 
+Get http://localhost:3000/messages/1
